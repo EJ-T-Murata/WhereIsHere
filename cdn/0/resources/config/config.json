@@ -1,0 +1,4363 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "SMALL": "layout_36"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "MainPage",
+      "header": true
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_7",
+        "SMALL": "layout_32"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "ScoreBoard",
+      "header": true,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "38.3%",
+            "right": "0.0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "75.00%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0.0%",
+            "right": "75.0%",
+            "top": "30.1%",
+            "bottom": "0.0%",
+            "width": "25.0%",
+            "height": "70.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "0.0%",
+            "right": "75.0%",
+            "top": "0.00%",
+            "bottom": "69.9%",
+            "width": "25.0%",
+            "height": "30.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "lockParent": true,
+            "lockLayout": false,
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_43",
+          "bbox": {
+            "left": "93.3%",
+            "right": "0px",
+            "top": "50.00px",
+            "bottom": "84.9%",
+            "width": "6.7%",
+            "height": "7.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": true,
+            "lockLayout": true
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_80",
+          "bbox": {
+            "right": "5.00px",
+            "top": "55.00px",
+            "width": "7.5%",
+            "height": "6.7%",
+            "left": "NaNpx"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_5": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "77.9%",
+            "width": "100.0%",
+            "height": "22.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "80.7%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "19.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "27.2%",
+            "bottom": "24.3%",
+            "width": "100.0%",
+            "height": "48.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockLayout": false,
+            "lockParent": true,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "NONE",
+                "option": {
+                  "direction": null
+                }
+              }
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "10.00px",
+            "right": "48.9%",
+            "top": "50%",
+            "bottom": "28.0%",
+            "width": "50.00%",
+            "height": "72.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "84.9%",
+            "right": "0.78%",
+            "top": "50%",
+            "bottom": "16.0%",
+            "width": "12.00%",
+            "height": "66.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "73.6%",
+            "right": "14.4%",
+            "top": "50%",
+            "bottom": "15.8%",
+            "width": "12.0%",
+            "height": "66.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "lockLayout": true,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_31",
+          "bbox": {
+            "left": "68.1%",
+            "right": "28.0%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "50px",
+            "height": "48px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": 0.96,
+            "lockLayout": true
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_72",
+          "bbox": {
+            "left": "5px",
+            "right": "40.5%",
+            "top": "50%",
+            "bottom": "14.0%",
+            "width": "59.1%",
+            "height": "72.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "6.8%",
+            "width": "100.0%",
+            "height": "93.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_40",
+          "bbox": {
+            "left": "0.0%",
+            "right": "63.9%",
+            "top": "93.1%",
+            "bottom": "0.0%",
+            "width": "50.00%",
+            "height": "6.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_41",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "93.1%",
+            "bottom": "-0.0%",
+            "width": "50.0%",
+            "height": "6.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_18": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_30",
+          "bbox": {
+            "left": "8.2%",
+            "right": "8.2%",
+            "top": "5.2%",
+            "bottom": "84.3%",
+            "width": "83.6%",
+            "height": "10.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_46",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "23.4%",
+            "bottom": "7.5%",
+            "width": "100.0%",
+            "height": "69.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "2"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {
+            "left": "-0.0%",
+            "right": "0px",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_21": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_36",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_22": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_44",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_26": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_30",
+          "bbox": {
+            "left": "50%",
+            "right": "8.2%",
+            "top": "2.0%",
+            "bottom": "87.5%",
+            "width": "83.6%",
+            "height": "10.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_46",
+          "bbox": {
+            "left": "2.4%",
+            "right": "2.4%",
+            "top": "52.0%",
+            "bottom": "0.0%",
+            "width": "95.2%",
+            "height": "48.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": true
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_53",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "16.5%",
+            "bottom": "4.6%",
+            "width": "100.0%",
+            "height": "78.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_61",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "2.5%",
+            "bottom": "86.2%",
+            "width": "100.0%",
+            "height": "11.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "2",
+        "3",
+        "4"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_30": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_62",
+          "bbox": {
+            "left": "8.2%",
+            "right": "8.2%",
+            "top": "5.2%",
+            "bottom": "84.3%",
+            "width": "83.6%",
+            "height": "10.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_63",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "23.4%",
+            "bottom": "7.5%",
+            "width": "100.0%",
+            "height": "69.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "2"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_31": {
+      "type": "FIXED",
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "16.5%",
+            "bottom": "4.6%",
+            "width": "100.0%",
+            "height": "78.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "2.5%",
+            "bottom": "86.2%",
+            "width": "100.0%",
+            "height": "11.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "3",
+        "4"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_32": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "6.8%",
+            "width": "100.0%",
+            "height": "93.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_40",
+          "bbox": {
+            "left": "0.0%",
+            "right": "63.9%",
+            "top": "93.1%",
+            "bottom": "0.0%",
+            "width": "50.00%",
+            "height": "6.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_41",
+          "bbox": {
+            "left": "50.0%",
+            "right": "0.0%",
+            "top": "93.1%",
+            "bottom": "-0.0%",
+            "width": "50.0%",
+            "height": "6.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_33": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {
+            "left": "-0.0%",
+            "right": "0px",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_34": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_36",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_35": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "9px",
+            "right": "2.2%",
+            "top": "14.7%",
+            "bottom": "13.3%",
+            "width": "95.4%",
+            "height": "72.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {
+            "left": "84.9%",
+            "right": "0.78%",
+            "top": "50%",
+            "bottom": "16.0%",
+            "width": "12.00%",
+            "height": "66.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "lockLayout": true
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "73.6%",
+            "right": "14.4%",
+            "top": "50%",
+            "bottom": "15.8%",
+            "width": "12.0%",
+            "height": "66.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "lockLayout": true,
+            "hCenter": false
+          },
+          "isPending": true
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_31",
+          "bbox": {
+            "left": "68.1%",
+            "right": "28.0%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "50px",
+            "height": "48px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": true,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": 0.96,
+            "lockLayout": true
+          },
+          "isPending": true
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "40.00%",
+            "width": "100.0%",
+            "height": "60.0006%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "bbox": {
+            "left": "0.0%",
+            "right": "75.0%",
+            "top": "0.00%",
+            "bottom": "69.9%",
+            "width": "25.0%",
+            "height": "30.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "lockParent": true,
+            "lockLayout": false,
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": true
+        },
+        "5": {
+          "type": "SECTION",
+          "sectionId": "section_2",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "61.3%",
+            "bottom": "3.00%",
+            "width": "100.0%",
+            "height": "37.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_71",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "96.3%",
+            "bottom": "-0.0%",
+            "width": "360px",
+            "height": "3.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH",
+              "height": {},
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "fixed",
+            "aspectRatio": 0.07
+          }
+        }
+      },
+      "order": [
+        "1",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "layout_37": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_43",
+          "bbox": {
+            "right": "0px",
+            "top": "85px",
+            "width": "12.9%",
+            "height": "12.8%",
+            "left": "310px",
+            "bottom": "262px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": true,
+            "lockLayout": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_79",
+          "bbox": {
+            "left": "88.2%",
+            "right": "7px",
+            "top": "55px",
+            "bottom": "77.4%",
+            "width": "32.00px",
+            "height": "8.0482%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1,
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_38": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_44",
+          "bbox": {},
+          "setting": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_84",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_39": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "77.9%",
+            "width": "100.0%",
+            "height": "22.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "80.7%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "19.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "31.0%",
+            "bottom": "28.8%",
+            "width": "100.0%",
+            "height": "40.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "lockLayout": true,
+            "lockParent": true,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "NONE",
+                "option": {
+                  "direction": null
+                }
+              }
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_41": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_42": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_73",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "76.5%",
+            "width": "100.0%",
+            "height": "57px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_74",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "83.7%",
+            "bottom": "0.00%",
+            "width": "100.0%",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_75",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "33.2%",
+            "bottom": "33.2%",
+            "width": "100.0%",
+            "height": "33.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_43": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_76",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_44": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_77",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_45": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_81",
+          "bbox": {},
+          "setting": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_83",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "exbVersion": "1.17.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "SMALL": {
+        "width": 360,
+        "height": 720
+      },
+      "LARGE": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_5": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.17.0",
+      "label": "マップ",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canLayers": false
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": null,
+        "scaleRange": null,
+        "layoutIndex": 0
+      },
+      "id": "widget_5",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_3",
+          "SMALL": "layout_37"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "type": "solid",
+          "color": "var(--dark-300)",
+          "width": "1px"
+        }
+      },
+      "enableDataAction": false
+    },
+    "widget_6": {
+      "uri": "widgets/WhereIsHere_Custom/",
+      "version": "1.14.0",
+      "label": "ここはどこでしょう？_カウント",
+      "config": {
+        "pointLayerSource": [
+          {
+            "dataSourceId": "dataSource_2-0",
+            "mainDataSourceId": "dataSource_2-0",
+            "rootDataSourceId": "dataSource_2"
+          }
+        ],
+        "answerLayerSource": [
+          {
+            "dataSourceId": "dataSource_3-0",
+            "mainDataSourceId": "dataSource_3-0",
+            "rootDataSourceId": "dataSource_3"
+          }
+        ]
+      },
+      "id": "widget_6",
+      "useMapWidgetIds": [
+        "widget_5"
+      ],
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        },
+        "borderRadius": null,
+        "border": {
+          "type": "solid",
+          "color": "var(--dark-300)",
+          "width": "1px"
+        }
+      },
+      "pointLayerSource": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "answerLayerSource": [
+        {
+          "dataSourceId": "dataSource_3-0",
+          "mainDataSourceId": "dataSource_3-0",
+          "rootDataSourceId": "dataSource_3"
+        }
+      ],
+      "pointLayerSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "answerLayerSources": [
+        {
+          "dataSourceId": "dataSource_3-0",
+          "mainDataSourceId": "dataSource_3-0",
+          "rootDataSourceId": "dataSource_3"
+        }
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
+        },
+        {
+          "dataSourceId": "dataSource_3-0",
+          "mainDataSourceId": "dataSource_3-0",
+          "rootDataSourceId": "dataSource_3"
+        },
+        {
+          "dataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "mainDataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "correctLayerSource": [
+        {
+          "dataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "mainDataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ],
+      "correctLayerSources": [
+        {
+          "dataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "mainDataSourceId": "dataSource_1-197b9fb3298-layer-2",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_8": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.17.0",
+      "label": "平均点パネル",
+      "config": null,
+      "id": "widget_8",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_5"
+        }
+      },
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "type": "solid",
+          "color": "var(--dark-300)",
+          "width": "1px"
+        }
+      }
+    },
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "平均点テキスト１",
+      "config": {
+        "text": "<p><span style=\"font-size: 24px; font-family: Arial; color: var(--dark-700);\">現在の平均点は・・・</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true,
+          "color": "var(--dark-700)"
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "平均点テキスト２",
+      "config": {
+        "text": "<p style=\"text-align: right;\"><span style=\"font-size: 24px; font-family: Arial; color: var(--dark-700);\">です。﻿</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true,
+          "color": "var(--dark-700)"
+        }
+      },
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "平均点",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--primary-500);\">&nbsp;&nbsp;</span><strong style=\"color: var(--primary-500); font-family: Arial; font-size: 64px;\"><exp data-uniqueid=\"95562153_8bd7_5b25_9f22_a7d5435fed5d\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22%E5%B9%B3%E5%9D%87%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%E5%BE%97%E7%82%B9%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22score%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A1%2C%22maximumFractionDigits%22%3A1%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿平均﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--primary-500); font-size: 24px;\">&nbsp;</span><span style=\"color: var(--dark-800); font-size: 24px;\">点</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": false,
+          "color": "var(--primary-500)"
+        }
+      },
+      "id": "widget_11",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "score"
+          ]
+        }
+      ]
+    },
+    "widget_14": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "タイトル テキスト",
+      "config": {
+        "text": "<p><span style=\"font-family: Arial; font-size: 16px;\">ArcGIS で場所当てクイズ！ - 回答チェック</span></p>",
+        "placeholder": "<p><span style=\"font-size: 32px; font-family: Arial;\">ダブルクリックしてテキストを編集</span></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_14"
+    },
+    "widget_15": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "得点表へ移動",
+      "config": {
+        "functionConfig": {
+          "text": "得点表 / チャート",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_2",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "background": {
+                "color": "var(--light)",
+                "fillType": "fill"
+              },
+              "borderRadius": {
+                "number": [
+                  30,
+                  30,
+                  30,
+                  30
+                ],
+                "unit": "px"
+              },
+              "text": {
+                "size": "16px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_15"
+    },
+    "widget_16": {
+      "uri": "widgets/common/table/",
+      "version": "1.17.0",
+      "label": "得点表 テーブル",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_2-0-1",
+            "name": "得点表",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-0",
+              "mainDataSourceId": "dataSource_2-0",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "nickname",
+                "score"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "objectid",
+                "name": "objectid",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "globalid",
+                "name": "globalid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "CreationDate",
+                "name": "CreationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "CreationDate",
+                "format": null
+              },
+              {
+                "jimuName": "Creator",
+                "name": "Creator",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Creator",
+                "format": null
+              },
+              {
+                "jimuName": "EditDate",
+                "name": "EditDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "EditDate",
+                "format": null
+              },
+              {
+                "jimuName": "Editor",
+                "name": "Editor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Editor",
+                "format": null
+              },
+              {
+                "jimuName": "nickname",
+                "name": "nickname",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "あなたのニックネームを教えてください。",
+                "format": null
+              },
+              {
+                "jimuName": "q1_lat",
+                "name": "q1_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q1_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q1_long",
+                "name": "q1_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q1_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q2_lat",
+                "name": "q2_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q2_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q2_long",
+                "name": "q2_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q2_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q3_lat",
+                "name": "q3_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q3_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q3_long",
+                "name": "q3_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q3_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q4_lat",
+                "name": "q4_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q4_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q4_long",
+                "name": "q4_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q4_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q5_lat",
+                "name": "q5_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q5_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q5_long",
+                "name": "q5_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q5_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q6_lat",
+                "name": "q6_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q6_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q6_long",
+                "name": "q6_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q6_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q7_lat",
+                "name": "q7_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q7_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q7_long",
+                "name": "q7_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q7_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q8_lat",
+                "name": "q8_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q8_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q8_long",
+                "name": "q8_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q8_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q9_lat",
+                "name": "q9_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q9_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q9_long",
+                "name": "q9_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q9_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q10_lat",
+                "name": "q10_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q10_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q10_long",
+                "name": "q10_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q10_Long",
+                "format": null
+              },
+              {
+                "jimuName": "score",
+                "name": "score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "得点",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "nickname",
+                "name": "nickname",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "あなたのニックネームを教えてください。",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "score",
+                "name": "score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "得点",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachments": false,
+            "enableEdit": false,
+            "allowCsv": false,
+            "enableSearch": false,
+            "searchFields": [],
+            "enableRefresh": true,
+            "enableSelect": true,
+            "enableDelete": false,
+            "selectMode": "SINGLE",
+            "showCount": true,
+            "headerFontSetting": {
+              "backgroundColor": "",
+              "fontSize": 14,
+              "bold": false,
+              "color": ""
+            },
+            "columnSetting": {
+              "responsiveType": "FIXED",
+              "columnWidth": 200
+            },
+            "layerHonorMode": "CUSTOM",
+            "updateText": false
+          }
+        ],
+        "mapViewsConfig": {},
+        "tableMode": "LAYER",
+        "enableMapExtentFilter": false,
+        "defaultExtentFilterEnabled": false,
+        "enableAttachments": false,
+        "arrangeType": "TABS",
+        "description": ""
+      },
+      "id": "widget_16",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "nickname",
+            "score"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_29": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "メインへ移動",
+      "config": {
+        "functionConfig": {
+          "text": "マップ画面",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_0",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "background": {
+                "color": "var(--light)",
+                "fillType": "fill"
+              },
+              "borderRadius": {
+                "number": [
+                  30,
+                  30,
+                  30,
+                  30
+                ],
+                "unit": "px"
+              },
+              "text": {
+                "size": "16px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_29"
+    },
+    "widget_30": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 2",
+      "config": {
+        "text": "<h1 style=\"text-align: center;\">ArcGIS で場所当てクイズ！</h1>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_30"
+    },
+    "widget_31": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "スプラッシュ再表示",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "情報",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/suggested/info.svg",
+                "path": [
+                  "general",
+                  "info"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_7"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_31"
+    },
+    "widget_36": {
+      "uri": "widgets/common/chart/",
+      "version": "1.17.0",
+      "label": "チャート",
+      "config": {
+        "template": "histogram",
+        "webChart": {
+          "version": "16.1.1",
+          "id": "histogram",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "outFields": [
+                "score"
+              ]
+            }
+          },
+          "colorMatch": true,
+          "series": [
+            {
+              "type": "histogramSeries",
+              "id": "score",
+              "name": "得点",
+              "x": "score",
+              "binCount": 20,
+              "overlays": {
+                "type": "chartOverlays",
+                "mean": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#A6CEE3",
+                    "width": 3
+                  }
+                },
+                "median": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#33A02C",
+                    "width": 3
+                  }
+                },
+                "standardDeviation": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": false,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#B2DF8A",
+                    "width": 1
+                  }
+                },
+                "comparisonDistribution": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#E31A1C",
+                    "width": 3
+                  }
+                }
+              },
+              "dataTransformationType": "none",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "dataTooltipVisible": false
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": "得点"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "notation": "standard",
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 1
+              },
+              "guides": []
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": "人数"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "notation": "standard",
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--ref-palette-white)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 16,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "得点 の分布"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--ref-palette-neutral-1100)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "bottom"
+          }
+        },
+        "tools": {
+          "cursorEnable": false
+        }
+      },
+      "id": "widget_36",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "score"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_36_output"
+      ],
+      "enableDataAction": false
+    },
+    "widget_40": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "得点表 リンク ボタン",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_1",
+            "openType": "_self"
+          },
+          "text": "得点表",
+          "textExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "text": {
+                "size": "16px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_40"
+    },
+    "widget_41": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "チャート リンク ボタン",
+      "config": {
+        "functionConfig": {
+          "text": "チャート",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "VIEW",
+            "value": "page_2,view_2",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "text": {
+                "size": "16px"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_41"
+    },
+    "widget_43": {
+      "uri": "widgets/common/controller/",
+      "version": "1.17.0",
+      "label": "レイヤー リスト コントローラー",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {},
+          "arrangement": "floating"
+        },
+        "appearance": {
+          "space": 5,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            },
+            "variant": {
+              "default": {
+                "bg": "var(--light)",
+                "iconColor": "var(--dark)",
+                "boxShadow": {
+                  "offsetX": "1px",
+                  "offsetY": "1px",
+                  "blur": "1px",
+                  "spread": "0px",
+                  "color": "var(--secondary-700)"
+                }
+              },
+              "active": {},
+              "hover": {}
+            },
+            "showIndicator": false
+          }
+        }
+      },
+      "id": "widget_43",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_22",
+          "SMALL": "layout_38"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_44": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.17.0",
+      "label": "レイヤー リスト",
+      "config": {
+        "useMapWidget": true,
+        "goto": false,
+        "useTickBoxes": true,
+        "expandAllLayers": true,
+        "enableLegend": false,
+        "customizeLayerOptions": {
+          "widget_5-dataSource_1": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_5-dataSource_1-197b9fb3298-layer-2",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c3538174-layer-11",
+              "widget_5-dataSource_1-197c33f85ff-layer-3-197c33f898a-layer-5",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d8da7b-layer-19",
+              "widget_5-dataSource_1-197c33f85ff-layer-3-197c33f8989-layer-4",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d9438c-layer-20",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d99532-layer-21",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d9e00b-layer-22",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4da4b86-layer-23",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4da990f-layer-24",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4daea13-layer-25",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4dbe2cd-layer-26",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4dc287b-layer-27"
+            ]
+          }
+        }
+      },
+      "id": "widget_44",
+      "useMapWidgetIds": [
+        "widget_5"
+      ],
+      "enableDataAction": false
+    },
+    "widget_46": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 3",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"ed3d1ef9_704e_1a0c_6b3d_15aaa3e50834\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 16px; color: var(--info);\">ArcGIS で場所当てクイズ！</a><span style=\"font-size: 16px; color: var(--dark);\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">使用した製品などは </span><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"97525e2f_de47_29e8_d1c1_6a21be45d38f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 16px; color: var(--info);\">ArcGIS ブログの記事</a><span style=\"font-size: 16px; color: var(--dark);\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true,
+          "color": "var(--dark)"
+        }
+      },
+      "id": "widget_46"
+    },
+    "widget_53": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 6",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"edd10d85_39b9_6b61_a486_6b152982abbe\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 12px; color: var(--info);\">ここはどこでしょうか？</a><span style=\"font-size: 12px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">使用した製品などについては ArcGIS ブログの記事でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_53"
+    },
+    "widget_59": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 10",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">あらかじめ、上記 QR コードからクイズに回答いただいた上で、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">（QR コードをクリックすることでもクイズ画面に移動できます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">使用した製品などについては ArcGIS ブログの記事でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_59"
+    },
+    "widget_61": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 12",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">ここはどこでしょうか？</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_61"
+    },
+    "widget_62": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 13",
+      "config": {
+        "text": "<h1 style=\"text-align: center;\"><span style=\"font-size: 30px;\">ここはどこでしょうか？</span></h1>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_62"
+    },
+    "widget_63": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 14",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"05f53b56_fd54_6b95_e8bf_97ec6f47289c\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--info); font-size: 16px;\">ここはどこでしょうか？</a><span style=\"color: var(--dark); font-size: 16px;\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">使用した製品などについては ArcGIS ブログの記事でも</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true,
+          "color": "var(--dark)"
+        }
+      },
+      "id": "widget_63"
+    },
+    "widget_64": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 15",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"edd10d85_39b9_6b61_a486_6b152982abbe\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 12px; color: var(--info);\">ここはどこでしょうか？</a><span style=\"font-size: 12px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">使用した製品などについては ArcGIS ブログの記事でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_64"
+    },
+    "widget_65": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 16",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">ここはどこでしょうか？</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_65"
+    },
+    "widget_66": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.17.0",
+      "label": "平均点パネル",
+      "config": null,
+      "id": "widget_66",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": "var(--dark-300)",
+          "type": "solid",
+          "width": "2px"
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_39"
+        }
+      }
+    },
+    "widget_71": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.17.0",
+      "label": "ビューのナビゲーション",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_2",
+          "views": []
+        },
+        "display": {
+          "type": "navButtonGroup",
+          "navStyle": "default",
+          "standard": {
+            "showPageNumber": true,
+            "previousText": "",
+            "previousIcon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M11.347 2.146a.485.485 0 0 1 0 .708L5.76 8l5.587 5.146a.486.486 0 0 1 0 .708.54.54 0 0 1-.738 0l-5.956-5.5a.485.485 0 0 1 0-.708l5.956-5.5a.54.54 0 0 1 .738 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "左矢印をスワイプ",
+                "size": 16,
+                "originalName": "outlined/directional/left.svg"
+              }
+            },
+            "nextText": "",
+            "nextIcon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M4.653 13.854a.485.485 0 0 1 0-.708L10.24 8 4.653 2.854a.485.485 0 0 1 0-.708.54.54 0 0 1 .738 0l5.956 5.5a.485.485 0 0 1 0 .708l-5.956 5.5a.54.54 0 0 1-.738 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "右矢印をスワイプ",
+                "size": 16,
+                "originalName": "outlined/directional/right.svg"
+              }
+            }
+          },
+          "vertical": false,
+          "advanced": false
+        }
+      },
+      "id": "widget_71"
+    },
+    "widget_72": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "タイトル テキスト 2",
+      "config": {
+        "text": "<p><span style=\"font-size: 32px; font-family: Arial;\">ArcGIS で場所当てクイズ！‐回答チェック</span></p>",
+        "placeholder": "<p><span style=\"font-size: 32px; font-family: Arial;\">ダブルクリックしてテキストを編集</span></p>",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_72"
+    },
+    "widget_73": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 17",
+      "config": {
+        "text": "<p><span style=\"font-size: 24px;\">現在の平均点は・・・</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_73"
+    },
+    "widget_74": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 18",
+      "config": {
+        "text": "<p style=\"text-align: right;\"><span style=\"font-size: 24px;\">点です。</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_74"
+    },
+    "widget_75": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "label": "テキスト 19",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 46px; color: var(--primary-500);\"><exp data-uniqueid=\"03521185_7d49_0d90_3f7e_592c00b5888a\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22%E5%B9%B3%E5%9D%87%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%E5%BE%97%E7%82%B9%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22score%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A0%2C%22maximumFractionDigits%22%3A1%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿平均﻿﻿﻿</span>﻿</exp></strong><span style=\"font-size: 32px; color: var(--primary-400);\">&nbsp;</span><span style=\"font-size: 24px;\">点</span></p>",
+        "placeholder": "ダブルクリックしてテキストを編集",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_75",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "score"
+          ]
+        }
+      ]
+    },
+    "widget_76": {
+      "uri": "widgets/common/table/",
+      "version": "1.17.0",
+      "label": "テーブル",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_2-0-1",
+            "name": "得点表",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-0",
+              "mainDataSourceId": "dataSource_2-0",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "nickname",
+                "score"
+              ]
+            },
+            "allFields": [
+              {
+                "jimuName": "objectid",
+                "name": "objectid",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "globalid",
+                "name": "globalid",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGlobalID",
+                "alias": "GlobalID",
+                "format": null
+              },
+              {
+                "jimuName": "CreationDate",
+                "name": "CreationDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "CreationDate",
+                "format": null
+              },
+              {
+                "jimuName": "Creator",
+                "name": "Creator",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Creator",
+                "format": null
+              },
+              {
+                "jimuName": "EditDate",
+                "name": "EditDate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "EditDate",
+                "format": null
+              },
+              {
+                "jimuName": "Editor",
+                "name": "Editor",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Editor",
+                "format": null
+              },
+              {
+                "jimuName": "nickname",
+                "name": "nickname",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ニックネーム",
+                "format": null
+              },
+              {
+                "jimuName": "q1_lat",
+                "name": "q1_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q1_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q1_long",
+                "name": "q1_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q1_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q2_lat",
+                "name": "q2_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q2_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q2_long",
+                "name": "q2_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q2_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q3_lat",
+                "name": "q3_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q3_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q3_long",
+                "name": "q3_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q3_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q4_lat",
+                "name": "q4_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q4_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q4_long",
+                "name": "q4_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q4_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q5_lat",
+                "name": "q5_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q5_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q5_long",
+                "name": "q5_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q5_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q6_lat",
+                "name": "q6_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q6_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q6_long",
+                "name": "q6_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q6_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q7_lat",
+                "name": "q7_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q7_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q7_long",
+                "name": "q7_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q7_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q8_lat",
+                "name": "q8_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q8_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q8_long",
+                "name": "q8_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q8_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q9_lat",
+                "name": "q9_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q9_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q9_long",
+                "name": "q9_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q9_Long",
+                "format": null
+              },
+              {
+                "jimuName": "q10_lat",
+                "name": "q10_lat",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q10_Lat",
+                "format": null
+              },
+              {
+                "jimuName": "q10_long",
+                "name": "q10_long",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Q10_Long",
+                "format": null
+              },
+              {
+                "jimuName": "score",
+                "name": "score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "得点",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              }
+            ],
+            "tableFields": [
+              {
+                "jimuName": "nickname",
+                "name": "nickname",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ニックネーム",
+                "format": null,
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              },
+              {
+                "jimuName": "score",
+                "name": "score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "得点",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "editable": true,
+                "visible": true
+              }
+            ],
+            "enableAttachments": false,
+            "enableEdit": false,
+            "allowCsv": false,
+            "enableSearch": true,
+            "searchFields": [
+              "nickname"
+            ],
+            "enableRefresh": true,
+            "enableSelect": true,
+            "enableDelete": false,
+            "selectMode": "SINGLE",
+            "showCount": true,
+            "headerFontSetting": {
+              "backgroundColor": "",
+              "fontSize": 14,
+              "bold": false,
+              "color": ""
+            },
+            "columnSetting": {
+              "responsiveType": "FIXED",
+              "columnWidth": 200
+            },
+            "layerHonorMode": "CUSTOM",
+            "updateText": false
+          }
+        ],
+        "mapViewsConfig": {},
+        "tableMode": "LAYER",
+        "enableMapExtentFilter": false,
+        "defaultExtentFilterEnabled": false,
+        "enableAttachments": false,
+        "arrangeType": "TABS"
+      },
+      "id": "widget_76",
+      "useMapWidgetIds": [
+        "widget_5"
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "nickname",
+            "score"
+          ]
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_77": {
+      "uri": "widgets/common/chart/",
+      "version": "1.17.0",
+      "label": "チャート 2",
+      "config": {
+        "template": "histogram",
+        "webChart": {
+          "version": "16.1.1",
+          "id": "histogram",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "outFields": [
+                "score"
+              ]
+            }
+          },
+          "colorMatch": true,
+          "series": [
+            {
+              "type": "histogramSeries",
+              "id": "score",
+              "name": "得点",
+              "x": "score",
+              "binCount": 10,
+              "overlays": {
+                "type": "chartOverlays",
+                "mean": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#A6CEE3",
+                    "width": 1
+                  }
+                },
+                "median": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#33A02C",
+                    "width": 1
+                  }
+                },
+                "standardDeviation": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": false,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#B2DF8A",
+                    "width": 1
+                  }
+                },
+                "comparisonDistribution": {
+                  "type": "chartOverlay",
+                  "visible": true,
+                  "created": true,
+                  "symbol": {
+                    "type": "esriSLS",
+                    "style": "esriSLSDash",
+                    "color": "#E31A1C",
+                    "width": 1
+                  }
+                }
+              },
+              "dataTransformationType": "none",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "#5E8FD0",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--light-900)",
+                  "width": 0
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-600)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "dataTooltipVisible": true
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": "得点"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "notation": "standard",
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 2
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": false,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-800)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle",
+                  "text": "人数"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--dark-500)",
+                  "font": {
+                    "family": "Avenir Next",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "notation": "standard",
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--light-800)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--ref-palette-neutral-400)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "var(--ref-palette-white)",
+          "title": {
+            "type": "chartText",
+            "visible": false,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-black)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 16,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--ref-palette-neutral-1100)",
+                "font": {
+                  "family": "Avenir Next",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--ref-palette-neutral-1100)",
+              "font": {
+                "family": "Avenir Next",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "bottom"
+          }
+        },
+        "tools": {
+          "cursorEnable": true
+        }
+      },
+      "id": "widget_77",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "score"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_77_output"
+      ],
+      "enableDataAction": false
+    },
+    "widget_79": {
+      "uri": "widgets/common/button/",
+      "version": "1.17.0",
+      "label": "ボタン",
+      "config": {
+        "functionConfig": {
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.5 7.5A.5.5 0 0 1 7 7h1.5v4.5h1a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1h1V8H7a.5.5 0 0 1-.5-.5\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16m0-1A7 7 0 1 0 8 1a7 7 0 0 0 0 14\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "情報",
+                "color": "var(--ref-palette-neutral-1100)",
+                "originalName": "outlined/suggested/info.svg",
+                "path": [
+                  "general",
+                  "info"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "LEFT"
+          },
+          "text": "",
+          "textExpression": null,
+          "linkParam": {
+            "linkType": "DIALOG",
+            "value": "dialog_7"
+          }
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "default"
+          },
+          "useCustom": true,
+          "customStyle": {
+            "hover": {},
+            "regular": {
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "background": {
+                "color": "var(--light)",
+                "fillType": "fill"
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_79"
+    },
+    "widget_80": {
+      "uri": "widgets/common/controller/",
+      "version": "1.17.0",
+      "label": "ウィジェット コントローラー",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [
+            "widget_81"
+          ],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {}
+        },
+        "appearance": {
+          "space": 5,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "iconColor": "var(--dark-800)",
+                "bg": "var(--light)",
+                "boxShadow": {
+                  "offsetX": "1px",
+                  "offsetY": "1px",
+                  "blur": "0px",
+                  "spread": "0px",
+                  "color": "var(--secondary)"
+                }
+              },
+              "active": {},
+              "hover": {}
+            }
+          }
+        }
+      },
+      "id": "widget_80",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_45"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_81": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.17.0",
+      "label": "レイヤー リスト",
+      "config": {
+        "useMapWidget": true,
+        "customizeLayerOptions": {
+          "widget_5-dataSource_1": {
+            "isEnabled": true,
+            "hiddenJimuLayerViewIds": [],
+            "showJimuLayerViewIds": [
+              "widget_5-dataSource_1-197b9fb3298-layer-2",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12",
+              "widget_5-dataSource_1-197c33f85ff-layer-3",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c3538174-layer-11",
+              "widget_5-dataSource_1-197c33f85ff-layer-3-197c33f898a-layer-5",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d8da7b-layer-19",
+              "widget_5-dataSource_1-197c33f85ff-layer-3-197c33f8989-layer-4",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d9438c-layer-20",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d99532-layer-21",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4d9e00b-layer-22",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4da4b86-layer-23",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4da990f-layer-24",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4daea13-layer-25",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4dbe2cd-layer-26",
+              "widget_5-dataSource_1-197c35c4bf3-layer-12-197c4dc287b-layer-27"
+            ]
+          }
+        }
+      },
+      "id": "widget_81",
+      "useMapWidgetIds": [
+        "widget_5"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_83": {
+      "uri": "widgets/arcgis/basemap-gallery/",
+      "version": "1.17.0",
+      "label": "ベースマップ ギャラリー",
+      "config": {
+        "basemapsType": "CUSTOM",
+        "customBasemaps": [
+          {
+            "id": "c876a8e4c26b4909b897afde5e81dddf",
+            "title": "衛星画像ハイブリッド",
+            "thumbnailUrl": "https://esrij.maps.arcgis.com/sharing/rest/content/items/c876a8e4c26b4909b897afde5e81dddf/info/thumbnail/imagery_hybrid_jp.jpg",
+            "type": "Web Map"
+          }
+        ]
+      },
+      "id": "widget_83",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    },
+    "widget_84": {
+      "uri": "widgets/arcgis/basemap-gallery/",
+      "version": "1.17.0",
+      "label": "ベースマップ ギャラリー",
+      "config": {
+        "basemapsType": "CUSTOM",
+        "customBasemaps": [
+          {
+            "id": "c876a8e4c26b4909b897afde5e81dddf",
+            "title": "衛星画像ハイブリッド",
+            "thumbnailUrl": "https://esrij.maps.arcgis.com/sharing/rest/content/items/c876a8e4c26b4909b897afde5e81dddf/info/thumbnail/imagery_hybrid_jp.jpg",
+            "type": "Web Map"
+          }
+        ]
+      },
+      "id": "widget_84",
+      "useMapWidgetIds": [
+        "widget_5"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "得点表",
+      "layout": {
+        "LARGE": "layout_20",
+        "SMALL": "layout_33"
+      }
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "チャート",
+      "layout": {
+        "LARGE": "layout_21",
+        "SMALL": "layout_34"
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "ビュー",
+      "layout": {
+        "SMALL": "layout_41"
+      }
+    },
+    "view_4": {
+      "id": "view_4",
+      "label": "ビュー 2",
+      "layout": {
+        "SMALL": "layout_42"
+      }
+    },
+    "view_5": {
+      "id": "view_5",
+      "label": "ビュー 3",
+      "layout": {
+        "SMALL": "layout_43"
+      }
+    },
+    "view_6": {
+      "id": "view_6",
+      "label": "ビュー 4",
+      "layout": {
+        "SMALL": "layout_44"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "得点表 セクション",
+      "views": [
+        "view_1",
+        "view_2"
+      ],
+      "arrowsNav": {
+        "visible": false
+      },
+      "dotsNav": {
+        "visible": false,
+        "position": "b"
+      }
+    },
+    "section_2": {
+      "id": "section_2",
+      "label": "セクション",
+      "views": [
+        "view_3",
+        "view_4",
+        "view_5",
+        "view_6"
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "type": "solid",
+          "color": "var(--light-900)",
+          "width": "1px"
+        }
+      }
+    }
+  },
+  "dialogs": {
+    "dialog_1": {
+      "id": "dialog_1",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "position": "MIDDLE_CENTER",
+          "width": "700px",
+          "height": "403px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
+        },
+        "SMALL": {
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM",
+          "width": "700px",
+          "height": "377px",
+          "position": "MIDDLE_CENTER"
+        }
+      },
+      "interactionType": "BUTTON_INLINE",
+      "interactionStyles": {
+        "text": "上記を確認しました。",
+        "textSize": "13px",
+        "buttonText": "",
+        "buttonTextSize": "16px"
+      },
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--ref-palette-neutral-1200)",
+      "layout": {
+        "LARGE": "layout_18",
+        "SMALL": "layout_26"
+      },
+      "index": 0,
+      "isSplash": true,
+      "border": {
+        "color": "var(--light-300)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "label": "スプラッシュ",
+      "closeWhenClickOverlay": false
+    },
+    "dialog_7": {
+      "id": "dialog_7",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "position": "MIDDLE_CENTER",
+          "width": "700px",
+          "height": "403px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
+        },
+        "SMALL": {
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM",
+          "width": "700px",
+          "height": "316px",
+          "position": "MIDDLE_CENTER"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--ref-palette-neutral-1200)",
+      "layout": {
+        "LARGE": "layout_30",
+        "SMALL": "layout_31"
+      },
+      "index": 1,
+      "isSplash": false,
+      "border": {
+        "color": "var(--light-300)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "label": "スプラッシュ 2",
+      "closeWhenClickOverlay": true
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://esrij.maps.arcgis.com"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#474747",
+      "color": "#ffffff"
+    },
+    "body": {
+      "bg": "#ff73df",
+      "color": "#ffffff",
+      "link": "#474747"
+    },
+    "button": {
+      "bg": "#e64c00",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": ""
+    }
+  },
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "ここはどこでしょうか - アプリ用 Web マップ",
+      "itemId": "3009d07ee189496db53760f2d487d529",
+      "portalUrl": "https://esrij.maps.arcgis.com"
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "ここはどこでしょうか？ Where is here？_results",
+      "itemId": "4cb18fdb1c9b44e3972d5335b0236ffd",
+      "portalUrl": "https://esrij.maps.arcgis.com",
+      "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/survey123_834f2d69cf3443d79af72dd12027e441_results/FeatureServer",
+      "childDataSourceJsons": {
+        "0": {
+          "id": "dataSource_2-0",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "survey",
+          "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/survey123_834f2d69cf3443d79af72dd12027e441_results/FeatureServer/0",
+          "layerId": "0",
+          "geometryType": "esriGeometryPoint",
+          "portalUrl": "https://esrij.maps.arcgis.com",
+          "itemId": "4cb18fdb1c9b44e3972d5335b0236ffd",
+          "dataViews": {
+            "dataView_1": {
+              "id": "dataView_1",
+              "label": "ランキング",
+              "orderBy": [
+                {
+                  "jimuFieldName": "score",
+                  "order": "DESC"
+                }
+              ],
+              "where": {
+                "logicalOperator": "AND",
+                "parts": [],
+                "sql": "",
+                "displaySQL": ""
+              }
+            }
+          }
+        }
+      },
+      "isHidden": false
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "WhereIsHere_userAnswers",
+      "itemId": "a0f0516ce9d1411daa5cb7fbec71ef00",
+      "portalUrl": "https://esrij.maps.arcgis.com",
+      "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer"
+    },
+    "widget_36_output": {
+      "id": "widget_36_output",
+      "type": "FEATURE_LAYER",
+      "label": "チャート 統計",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "チャート 統計",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "name": "__outputid__"
+          },
+          "minValue": {
+            "jimuName": "minValue",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "name": "minValue",
+            "alias": "Min value",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 3
+            }
+          },
+          "maxValue": {
+            "jimuName": "maxValue",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "name": "maxValue",
+            "alias": "Max value",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 3
+            }
+          },
+          "count": {
+            "jimuName": "count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "name": "count",
+            "alias": "Count",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          }
+        }
+      }
+    },
+    "widget_77_output": {
+      "id": "widget_77_output",
+      "type": "FEATURE_LAYER",
+      "label": "チャート 2 統計",
+      "originDataSources": [
+        {
+          "dataSourceId": "dataSource_2-0",
+          "mainDataSourceId": "dataSource_2-0",
+          "rootDataSourceId": "dataSource_2"
+        }
+      ],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": true,
+      "schema": {
+        "idField": "__outputid__",
+        "label": "チャート 2 統計",
+        "fields": {
+          "__outputid__": {
+            "jimuName": "__outputid__",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "name": "__outputid__"
+          },
+          "minValue": {
+            "jimuName": "minValue",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "name": "minValue",
+            "alias": "Min value",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 3
+            }
+          },
+          "maxValue": {
+            "jimuName": "maxValue",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "name": "maxValue",
+            "alias": "Max value",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 3
+            }
+          },
+          "count": {
+            "jimuName": "count",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "name": "count",
+            "alias": "Count",
+            "originFields": [
+              "score"
+            ],
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "originExbVersion": "1.17.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    },
+    {
+      "page_2": []
+    }
+  ],
+  "timestamp": 1754373320739,
+  "header": {
+    "layout": {
+      "LARGE": "layout_6",
+      "SMALL": "layout_35"
+    },
+    "height": {
+      "LARGE": 75,
+      "SMALL": "50px"
+    },
+    "backgroundColor": "var(--dark-200)"
+  },
+  "controllerPanels": {}
+}

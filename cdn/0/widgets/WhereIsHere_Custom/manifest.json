@@ -1,0 +1,23 @@
+{
+  "name": "WhereIsHere_Custom",
+  "label": "ここはどこでしょう？_カウント",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Esri Japan",
+  "description": "ここはどこでしょう？で得点計算および様々な処理を行います。",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en",
+    "ja"
+  ],
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  },
+  "dependency": [
+    "jimu-arcgis"
+  ]
+}
