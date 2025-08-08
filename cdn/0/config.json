@@ -4053,7 +4053,7 @@
         "type": "solid",
         "width": "2px"
       },
-      "label": "スプラッシュ",
+      "label": "Splash",
       "closeWhenClickOverlay": false
     },
     "dialog_7": {
@@ -4101,7 +4101,7 @@
         "type": "solid",
         "width": "2px"
       },
-      "label": "スプラッシュ 2",
+      "label": "Splash2",
       "closeWhenClickOverlay": true
     }
   },
@@ -4337,7 +4337,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1754621088216,
+  "timestamp": 1754625876914,
   "header": {
     "layout": {
       "LARGE": "layout_6",
@@ -4350,5 +4350,15 @@
     "backgroundColor": "var(--dark-200)"
   },
   "controllerPanels": {},
-  "publishTimestamp": 1754621121319
+  "historyLabels": {
+    "dialogs": {
+      "dialog_1": [
+        "スプラッシュ"
+      ],
+      "dialog_7": [
+        "スプラッシュ 2"
+      ]
+    }
+  },
+  "publishTimestamp": 1754625878438
 }

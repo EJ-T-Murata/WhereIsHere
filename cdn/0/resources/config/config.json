@@ -4070,7 +4070,7 @@
         "type": "solid",
         "width": "2px"
       },
-      "label": "スプラッシュ",
+      "label": "Splash",
       "closeWhenClickOverlay": false
     },
     "dialog_7": {
@@ -4118,7 +4118,7 @@
         "type": "solid",
         "width": "2px"
       },
-      "label": "スプラッシュ 2",
+      "label": "Splash2",
       "closeWhenClickOverlay": true
     }
   },
@@ -4347,7 +4347,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1754621088216,
+  "timestamp": 1754625876914,
   "header": {
     "layout": {
       "LARGE": "layout_6",
