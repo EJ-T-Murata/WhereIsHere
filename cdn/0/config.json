@@ -497,10 +497,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "23.4%",
-            "bottom": "7.5%",
+            "top": "20.6%",
+            "bottom": "-0.0%",
             "width": "100.0%",
-            "height": "69.1%"
+            "height": "79.4%"
           },
           "setting": {
             "autoProps": {
@@ -2800,7 +2800,7 @@
       "version": "1.17.0",
       "label": "テキスト 3",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"ed3d1ef9_704e_1a0c_6b3d_15aaa3e50834\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--info); font-size: 16px;\">ArcGIS で場所当てクイズ！</a><span style=\"color: var(--dark); font-size: 16px;\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">使用した製品などは </span><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"97525e2f_de47_29e8_d1c1_6a21be45d38f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--info); font-size: 16px;\">ArcGISブログの記事</a><span style=\"color: var(--dark); font-size: 16px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 16px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"ed3d1ef9_704e_1a0c_6b3d_15aaa3e50834\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; color: var(--info);\">ArcGIS で場所当てクイズ！</a><span style=\"font-size: 14px; color: var(--dark);\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">アプリケーションを操作いただくとより楽しめます。<span class=\"ql-cursor\">﻿</span></span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">使用した製品などは </span><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"97525e2f_de47_29e8_d1c1_6a21be45d38f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; color: var(--info);\">ArcGISブログの記事</a><span style=\"font-size: 14px; color: var(--dark);\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true,
           "color": "var(--dark)"
@@ -2813,7 +2813,7 @@
       "version": "1.17.0",
       "label": "テキスト 6",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">あらかじめ、「</span><u style=\"font-size: 12px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"8308fd56_d8c0_24e2_39a2_ee662ecf52bb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 12px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">使用した製品などについては </span><u style=\"font-size: 12px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"c201cfad_6956_7323_e374_4119207925b7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 12px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"8308fd56_d8c0_24e2_39a2_ee662ecf52bb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"c201cfad_6956_7323_e374_4119207925b7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true
         }
@@ -2837,7 +2837,7 @@
       "version": "1.17.0",
       "label": "テキスト 12",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">ここはどこでしょうか？</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">ArcGIS で場所当てクイズ！</span></p>",
         "style": {
           "wrap": true
         }
@@ -2861,7 +2861,7 @@
       "version": "1.17.0",
       "label": "テキスト 14",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">あらかじめ、「</span><u style=\"font-size: 16px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"2880ca03_db1e_2227_6154_7c8c3ed706de\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 16px; color: var(--dark);\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">使用した製品などについては </span><u style=\"font-size: 16px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"0b170c27_4661_3402_6310_50ee0e16d009\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログ</a><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"0b170c27_4661_3402_6310_50ee0e16d009\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">の記事</a></u><span style=\"font-size: 16px; color: var(--dark);\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: var(--dark);\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">あらかじめ、「</span><u style=\"color: var(--info); font-size: 14px;\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"2880ca03_db1e_2227_6154_7c8c3ed706de\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"color: var(--dark); font-size: 14px;\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">使用した製品などについては </span><u style=\"color: var(--info); font-size: 14px;\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"0b170c27_4661_3402_6310_50ee0e16d009\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"color: var(--dark); font-size: 14px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true,
           "color": "var(--dark)"
@@ -2874,7 +2874,7 @@
       "version": "1.17.0",
       "label": "テキスト 15",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 12px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">あらかじめ、「</span><u style=\"font-size: 12px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"51ff3973_5b9d_08b0_3eb8_e707e044a596\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 12px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">使用した製品などについては </span><u style=\"font-size: 12px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"9d1069df_f443_514b_1e33_2522d470fb9f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 12px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"51ff3973_5b9d_08b0_3eb8_e707e044a596\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"9d1069df_f443_514b_1e33_2522d470fb9f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true
         }
@@ -2886,7 +2886,7 @@
       "version": "1.17.0",
       "label": "テキスト 16",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\">ここはどこでしょうか？</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">ArcGIS で場所当てクイズ！</span></p>",
         "style": {
           "wrap": true
         }
@@ -4018,11 +4018,13 @@
           "heightMode": "CUSTOM"
         },
         "SMALL": {
-          "widthMode": "CUSTOM",
-          "heightMode": "CUSTOM",
+          "position": "MIDDLE_CENTER",
           "width": "700px",
-          "height": "377px",
-          "position": "MIDDLE_CENTER"
+          "height": "450px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
         }
       },
       "interactionType": "BUTTON_INLINE",
@@ -4071,11 +4073,13 @@
           "heightMode": "CUSTOM"
         },
         "SMALL": {
-          "widthMode": "CUSTOM",
-          "heightMode": "CUSTOM",
+          "position": "MIDDLE_CENTER",
           "width": "700px",
-          "height": "316px",
-          "position": "MIDDLE_CENTER"
+          "height": "450px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
         }
       },
       "interactionType": null,
@@ -4337,7 +4341,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1754625876914,
+  "timestamp": 1754631102452,
   "header": {
     "layout": {
       "LARGE": "layout_6",
@@ -4360,5 +4364,5 @@
       ]
     }
   },
-  "publishTimestamp": 1754625878438
+  "publishTimestamp": 1754631103391
 }
