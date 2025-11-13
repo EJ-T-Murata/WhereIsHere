@@ -734,8 +734,8 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "23.4%",
-            "bottom": "7.5%",
+            "top": "21.1%",
+            "bottom": "9.8%",
             "width": "100.0%",
             "height": "69.1%"
           },
@@ -1715,9 +1715,9 @@
       ],
       "pointLayerSources": [
         {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_4-0",
+          "mainDataSourceId": "dataSource_4-0",
+          "rootDataSourceId": "dataSource_4"
         }
       ],
       "answerLayerSources": [
@@ -1729,9 +1729,9 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_4-0",
+          "mainDataSourceId": "dataSource_4-0",
+          "rootDataSourceId": "dataSource_4"
         },
         {
           "dataSourceId": "dataSource_3-0",
@@ -1810,7 +1810,7 @@
       "version": "1.17.0",
       "label": "平均点",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--primary-500);\">&nbsp;&nbsp;</span><strong style=\"color: var(--primary-500); font-family: Arial; font-size: 64px;\"><exp data-uniqueid=\"95562153_8bd7_5b25_9f22_a7d5435fed5d\" data-dsid=\"dataSource_2-0\" data-expression=\"%7B%22name%22%3A%22%E5%B9%B3%E5%9D%87%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%E5%BE%97%E7%82%B9%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-0%22%2C%22jimuFieldName%22%3A%22score%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A1%2C%22maximumFractionDigits%22%3A1%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿平均﻿﻿﻿</span>﻿</exp></strong><span style=\"color: var(--primary-500); font-size: 24px;\">&nbsp;</span><span style=\"color: var(--dark-800); font-size: 24px;\">点</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--primary-500);\">&nbsp;&nbsp;</span><strong style=\"font-size: 64px; color: var(--primary-500);\"><exp data-uniqueid=\"f957ee57_daaf_be49_37ce_66432da5c018\" data-dsid=\"dataSource_4-0\" data-expression=\"%7B%22name%22%3A%22%E5%B9%B3%E5%9D%87%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22AVERAGE%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7B%E5%BE%97%E7%82%B9%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-0%22%2C%22jimuFieldName%22%3A%22score%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%2C%22numberFormat%22%3A%7B%22useGrouping%22%3Atrue%2C%22notation%22%3A%22standard%22%2C%22minimumFractionDigits%22%3A1%2C%22maximumFractionDigits%22%3A1%7D%7D\">﻿<span contenteditable=\"false\">﻿﻿平均﻿﻿</span>﻿</exp></strong><span style=\"font-size: 24px; color: var(--primary-500);\">&nbsp;</span><span style=\"font-size: 24px; color: var(--dark-800);\">点</span></p>",
         "style": {
           "wrap": false,
           "color": "var(--primary-500)"
@@ -1820,9 +1820,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_4-0",
+          "mainDataSourceId": "dataSource_4-0",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
             "score"
           ]
@@ -1892,12 +1892,12 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_2-0-1",
+            "id": "dataSource_4-0-2",
             "name": "得点表",
             "useDataSource": {
-              "dataSourceId": "dataSource_2-0",
-              "mainDataSourceId": "dataSource_2-0",
-              "rootDataSourceId": "dataSource_2",
+              "dataSourceId": "dataSource_4-0",
+              "mainDataSourceId": "dataSource_4-0",
+              "rootDataSourceId": "dataSource_4",
               "fields": [
                 "nickname",
                 "score"
@@ -2129,10 +2129,7 @@
                 "type": "NUMBER",
                 "esriType": "esriFieldTypeInteger",
                 "alias": "得点",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                }
+                "format": null
               }
             ],
             "tableFields": [
@@ -2153,10 +2150,7 @@
                 "type": "NUMBER",
                 "esriType": "esriFieldTypeInteger",
                 "alias": "得点",
-                "format": {
-                  "digitSeparator": true,
-                  "places": 0
-                },
+                "format": null,
                 "editAuthority": true,
                 "editable": true,
                 "visible": true
@@ -2197,9 +2191,9 @@
       "id": "widget_16",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
+          "dataSourceId": "dataSource_4-0",
+          "mainDataSourceId": "dataSource_4-0",
+          "rootDataSourceId": "dataSource_4",
           "fields": [
             "nickname",
             "score"
@@ -2622,19 +2616,8 @@
         }
       },
       "id": "widget_36",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "score"
-          ]
-        }
-      ],
-      "outputDataSources": [
-        "widget_36_output"
-      ],
+      "useDataSources": [],
+      "outputDataSources": [],
       "enableDataAction": false
     },
     "widget_40": {
@@ -2800,7 +2783,7 @@
       "version": "1.17.0",
       "label": "テキスト 3",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"ed3d1ef9_704e_1a0c_6b3d_15aaa3e50834\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; color: var(--info);\">ArcGIS で場所当てクイズ！</a><span style=\"font-size: 14px; color: var(--dark);\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">アプリケーションを操作いただくとより楽しめます。<span class=\"ql-cursor\">﻿</span></span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">使用した製品などは </span><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"97525e2f_de47_29e8_d1c1_6a21be45d38f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\" style=\"font-size: 14px; color: var(--info);\">ArcGISブログの記事</a><span style=\"font-size: 14px; color: var(--dark);\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">あらかじめ、「</span><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"ed3d1ef9_704e_1a0c_6b3d_15aaa3e50834\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--info); font-size: 14px;\">ArcGIS で場所当てクイズ！</a><span style=\"color: var(--dark); font-size: 14px;\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">アプリケーションを操作いただくとより楽しめます。﻿</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: var(--dark);\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: var(--dark);\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">得点の計算は 1 時間毎に行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">使用した製品などは </span><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"97525e2f_de47_29e8_d1c1_6a21be45d38f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\" style=\"color: var(--info); font-size: 14px;\">ArcGISブログの記事</a><span style=\"color: var(--dark); font-size: 14px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true,
           "color": "var(--dark)"
@@ -2813,7 +2796,7 @@
       "version": "1.17.0",
       "label": "テキスト 6",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"8308fd56_d8c0_24e2_39a2_ee662ecf52bb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"c201cfad_6956_7323_e374_4119207925b7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"8308fd56_d8c0_24e2_39a2_ee662ecf52bb\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 1 時間毎に行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"c201cfad_6956_7323_e374_4119207925b7\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true
         }
@@ -2861,7 +2844,7 @@
       "version": "1.17.0",
       "label": "テキスト 14",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">あらかじめ、「</span><u style=\"color: var(--info); font-size: 14px;\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"2880ca03_db1e_2227_6154_7c8c3ed706de\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"color: var(--dark); font-size: 14px;\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 12px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">使用した製品などについては </span><u style=\"color: var(--info); font-size: 14px;\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"0b170c27_4661_3402_6310_50ee0e16d009\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"color: var(--dark); font-size: 14px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 14px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">写真を撮影した場所を当てるクイズの回答を確認するアプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">あらかじめ、「</span><u style=\"font-size: 14px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"2880ca03_db1e_2227_6154_7c8c3ed706de\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 14px; color: var(--dark);\">」からクイズに回答いただいた上で</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">アプリケーションを操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: var(--dark);\">※「マップの作成に失敗しました」といった旨のエラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 12px; color: var(--dark);\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">得点の計算は 1 時間毎に行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">使用した製品などについては </span><u style=\"font-size: 14px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"0b170c27_4661_3402_6310_50ee0e16d009\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 14px; color: var(--dark);\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 14px; color: var(--dark);\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true,
           "color": "var(--dark)"
@@ -2874,7 +2857,7 @@
       "version": "1.17.0",
       "label": "テキスト 15",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"51ff3973_5b9d_08b0_3eb8_e707e044a596\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 15 分置きに行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"9d1069df_f443_514b_1e33_2522d470fb9f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 10px;\">このアプリケーションは ArcGIS ブログでご紹介した</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">写真を撮影した場所を当てるクイズの回答を確認する</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">アプリケーションです。</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">あらかじめ、「</span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://survey123.arcgis.com/share/834f2d69cf3443d79af72dd12027e441\" target=\"_blank\" data-uniqueid=\"51ff3973_5b9d_08b0_3eb8_e707e044a596\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fsurvey123.arcgis.com%2Fshare%2F834f2d69cf3443d79af72dd12027e441%22%2C%22expression%22%3Anull%7D\">ArcGIS で場所当てクイズ！</a></u><span style=\"font-size: 10px;\">」から</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">クイズに回答いただいた上で、操作いただくとより楽しめます。</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">※「マップの作成に失敗しました」といった旨の</span></p><p style=\"text-align: center;\"><span style=\"color: var(--dark); font-size: 10px;\">エラーが表示されてしまった場合は、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px; color: var(--dark);\"> お手数ですが、ページの更新をお試しください。 </span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">得点の計算は 1 時間毎に行っていますので、</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">回答後、しばらくしてからご確認ください。</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">使用した製品などについては </span><u style=\"font-size: 10px; color: var(--info);\"><a href=\"https://blog.esrij.com/2025/08/05/post-66002/\" target=\"_blank\" data-uniqueid=\"9d1069df_f443_514b_1e33_2522d470fb9f\" data-dsid=\"\" data-link=\"%7B%22linkType%22%3A%22WEB_ADDRESS%22%2C%22openType%22%3A%22_blank%22%2C%22value%22%3A%22https%3A%2F%2Fblog.esrij.com%2F2025%2F08%2F05%2Fpost-66002%2F%22%2C%22expression%22%3Anull%7D\">ArcGISブログの記事</a></u><span style=\"font-size: 10px;\">でも</span></p><p style=\"text-align: center;\"><span style=\"font-size: 10px;\">ご紹介しておりますので、ぜひそちらもご確認ください！</span></p>",
         "style": {
           "wrap": true
         }
@@ -3001,16 +2984,7 @@
       },
       "id": "widget_75",
       "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "score"
-          ]
-        }
-      ]
+      "useDataSources": []
     },
     "widget_76": {
       "uri": "widgets/common/table/",
@@ -3393,17 +3367,7 @@
           }
         }
       },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "nickname",
-            "score"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "enableDataAction": false
     },
     "widget_77": {
@@ -3710,19 +3674,8 @@
         }
       },
       "id": "widget_77",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "score"
-          ]
-        }
-      ],
-      "outputDataSources": [
-        "widget_77_output"
-      ],
+      "useDataSources": [],
+      "outputDataSources": [],
       "enableDataAction": false
     },
     "widget_79": {
@@ -4111,74 +4064,180 @@
   },
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://esrij.maps.arcgis.com",
+    "portalUrl": "https://ej.maps.arcgis.com",
     "isWebTier": false,
-    "clientId": "Mh7CjAklylwmKaEr",
+    "clientId": "iJ1vbRiOpTBMzQlU",
     "express": false,
-    "title": "ArcGIS で場所当てクイズ！ ー 回答チェック",
+    "title": "ArcGIS で場所当てクイズ - 回答チェック",
     "description": "",
     "type": "Web Experience",
     "thumbnail": null
   },
   "sharedThemeVariables": {
-    "header": {
-      "bg": "#474747",
-      "color": "#ffffff"
-    },
-    "body": {
-      "bg": "#ff73df",
-      "color": "#ffffff",
-      "link": "#474747"
-    },
-    "button": {
-      "bg": "#e64c00",
-      "color": "#ffffff"
-    },
-    "logo": {
-      "small": ""
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {},
+    "fonts": {
+      "base": {
+        "url": "",
+        "family": "Avenir Next"
+      },
+      "heading": {
+        "url": "",
+        "family": "Avenir Next"
+      }
     }
   },
   "dataSources": {
     "dataSource_1": {
       "id": "dataSource_1",
       "type": "WEB_MAP",
-      "sourceLabel": "ここはどこでしょうか - アプリ用 Web マップ",
-      "itemId": "3009d07ee189496db53760f2d487d529",
-      "portalUrl": "https://esrij.maps.arcgis.com"
-    },
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "FEATURE_SERVICE",
-      "sourceLabel": "ここはどこでしょうか？ Where is here？_results",
-      "itemId": "4cb18fdb1c9b44e3972d5335b0236ffd",
-      "portalUrl": "https://esrij.maps.arcgis.com",
-      "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/survey123_834f2d69cf3443d79af72dd12027e441_results/FeatureServer",
+      "sourceLabel": "ArcGIS で場所当てクイズ！ - アプリ用 Web マップ",
+      "itemId": "9dc57e7b0c00417191c4b7c8bd185ab4",
+      "portalUrl": "https://ej.maps.arcgis.com",
       "childDataSourceJsons": {
-        "0": {
-          "id": "dataSource_2-0",
+        "197b9fb3298-layer-2": {
+          "id": "dataSource_1-197b9fb3298-layer-2",
           "type": "FEATURE_LAYER",
-          "sourceLabel": "survey",
-          "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/survey123_834f2d69cf3443d79af72dd12027e441_results/FeatureServer/0",
+          "sourceLabel": "正解",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "914db82628bb4512abf8a43f9c8c2714",
           "layerId": "0",
-          "geometryType": "esriGeometryPoint",
-          "portalUrl": "https://esrij.maps.arcgis.com",
-          "itemId": "4cb18fdb1c9b44e3972d5335b0236ffd",
-          "dataViews": {
-            "dataView_1": {
-              "id": "dataView_1",
-              "label": "ランキング",
-              "orderBy": [
-                {
-                  "jimuFieldName": "score",
-                  "order": "DESC"
-                }
-              ],
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [],
-                "sql": "",
-                "displaySQL": ""
-              }
+          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/ArcGIS%20%E3%81%A7%E5%A0%B4%E6%89%80%E5%BD%93%E3%81%A6%E3%82%AF%E3%82%A4%E3%82%BA%EF%BC%81%20-%20%E7%AD%94%E3%81%88/FeatureServer/0",
+          "disableExport": true
+        },
+        "197c35c4bf3-layer-12": {
+          "id": "dataSource_1-197c35c4bf3-layer-12",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "みんなの回答",
+          "childDataSourceJsons": {
+            "197c3538174-layer-11": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c3538174-layer-11",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 1",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4d8da7b-layer-19": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4d8da7b-layer-19",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 2",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4d9438c-layer-20": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4d9438c-layer-20",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 3",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4d99532-layer-21": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4d99532-layer-21",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 4",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4d9e00b-layer-22": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4d9e00b-layer-22",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 5",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4da4b86-layer-23": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4da4b86-layer-23",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 6",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4da990f-layer-24": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4da990f-layer-24",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 7",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4daea13-layer-25": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4daea13-layer-25",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 8",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4dbe2cd-layer-26": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4dbe2cd-layer-26",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 9",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c4dc287b-layer-27": {
+              "id": "dataSource_1-197c35c4bf3-layer-12-197c4dc287b-layer-27",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "問 10",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+              "disableExport": true
+            }
+          }
+        },
+        "197c33f85ff-layer-3": {
+          "id": "dataSource_1-197c33f85ff-layer-3",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "得点圏",
+          "childDataSourceJsons": {
+            "197c33f898a-layer-5": {
+              "id": "dataSource_1-197c33f85ff-layer-3-197c33f898a-layer-5",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "ライン",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "510e964f240d4941b184c1a7d2ab7b3d",
+              "layerId": "0",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_scoreBuffer/FeatureServer/0",
+              "disableExport": true
+            },
+            "197c33f8989-layer-4": {
+              "id": "dataSource_1-197c33f85ff-layer-3-197c33f8989-layer-4",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "ポリゴン",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "510e964f240d4941b184c1a7d2ab7b3d",
+              "layerId": "1",
+              "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_scoreBuffer/FeatureServer/1",
+              "disableExport": true
             }
           }
         }
@@ -4188,148 +4247,32 @@
     "dataSource_3": {
       "id": "dataSource_3",
       "type": "FEATURE_SERVICE",
-      "sourceLabel": "WhereIsHere_userAnswers",
-      "itemId": "a0f0516ce9d1411daa5cb7fbec71ef00",
-      "portalUrl": "https://esrij.maps.arcgis.com",
-      "url": "https://services1.arcgis.com/KbxBPISGJFVF6WCN/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer"
+      "sourceLabel": "ArcGIS で場所当てクイズ！ - 回答ポイント",
+      "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+      "portalUrl": "https://ej.maps.arcgis.com",
+      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer",
+      "childDataSourceJsons": {
+        "0": {
+          "id": "dataSource_3-0",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "userAnswers",
+          "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/WhereIsHere_userAnswers/FeatureServer/0",
+          "layerId": "0",
+          "geometryType": "esriGeometryPoint",
+          "portalUrl": "https://ej.maps.arcgis.com",
+          "itemId": "e1bdcba48e294ace97de3cc30c9f870e",
+          "disableExport": true
+        }
+      },
+      "isHidden": false
     },
-    "widget_36_output": {
-      "id": "widget_36_output",
-      "type": "FEATURE_LAYER",
-      "label": "チャート 統計",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "__outputid__",
-        "label": "チャート 統計",
-        "fields": {
-          "__outputid__": {
-            "jimuName": "__outputid__",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "name": "__outputid__"
-          },
-          "minValue": {
-            "jimuName": "minValue",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "minValue",
-            "alias": "Min value",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          },
-          "maxValue": {
-            "jimuName": "maxValue",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "maxValue",
-            "alias": "Max value",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          },
-          "count": {
-            "jimuName": "count",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeInteger",
-            "name": "count",
-            "alias": "Count",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 0
-            }
-          }
-        }
-      }
-    },
-    "widget_77_output": {
-      "id": "widget_77_output",
-      "type": "FEATURE_LAYER",
-      "label": "チャート 2 統計",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_2-0",
-          "mainDataSourceId": "dataSource_2-0",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "__outputid__",
-        "label": "チャート 2 統計",
-        "fields": {
-          "__outputid__": {
-            "jimuName": "__outputid__",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "name": "__outputid__"
-          },
-          "minValue": {
-            "jimuName": "minValue",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "minValue",
-            "alias": "Min value",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          },
-          "maxValue": {
-            "jimuName": "maxValue",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeDouble",
-            "name": "maxValue",
-            "alias": "Max value",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 3
-            }
-          },
-          "count": {
-            "jimuName": "count",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeInteger",
-            "name": "count",
-            "alias": "Count",
-            "originFields": [
-              "score"
-            ],
-            "format": {
-              "digitSeparator": true,
-              "places": 0
-            }
-          }
-        }
-      }
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "ArcGIS で場所当てクイズ！_form",
+      "itemId": "fb58336af38b4ad7b6b15be41f50c896",
+      "portalUrl": "https://ej.maps.arcgis.com",
+      "url": "https://services.arcgis.com/wlVTGRSYTzAbjjiC/arcgis/rest/services/survey123_6f88a9f858194cbf93a71b5002bca43f_form/FeatureServer"
     }
   },
   "originExbVersion": "1.17.0",
@@ -4341,7 +4284,7 @@
       "page_2": []
     }
   ],
-  "timestamp": 1754631102452,
+  "timestamp": 1762997305426,
   "header": {
     "layout": {
       "LARGE": "layout_6",
@@ -4364,5 +4307,5 @@
       ]
     }
   },
-  "publishTimestamp": 1754631103391
+  "publishTimestamp": 1762997306742
 }
